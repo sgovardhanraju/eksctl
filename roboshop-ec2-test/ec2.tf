@@ -6,6 +6,7 @@ module "catalogue" {
     # tags = {
     #     Name    = "modules-demo"
     # }
+    
     ami_id = var.ami_id
     sg_ids = var.sg_ids
     instance_type = var.instance_type

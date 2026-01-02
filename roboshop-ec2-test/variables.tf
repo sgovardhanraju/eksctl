@@ -5,7 +5,6 @@ variable "ami_id" {
 variable "sg_ids" {
   default = ["sg-0caa92da7b80302bc"]
 }
-
 variable "instance_type" {
   default = "t3.micro"
 }

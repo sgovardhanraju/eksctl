@@ -5,7 +5,6 @@ terraform {
         version = "6.16.0"
     }
   }
-
   backend "s3" {
     bucket = "sgr-remote-state"
     key = "ec2-module-demo"
